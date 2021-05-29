@@ -2,6 +2,14 @@
 
 repeat wait() until game:GetService("Players").LocalPlayer.Character
 
+--// Codes
+
+local codes = {"2MVISITS!", "AhwokenTwitter!", "1MVISITS!", "15KLIKES!", "SHUTDOWNADOPTME!", "MaineEOA", "ShutdownForFixes!", "AltheaHype!", "ShutdownForFixesA!", "ShutdownForFixes2!", "4MILVISITS!", "25LIKES!", "MyApologies!"}
+local Event = game:GetService("ReplicatedStorage").Remotes.RedeemCode
+for i,v in pairs(codes) do
+   Event:InvokeServer(v)
+end
+
 local tweenspeed = _G.tweenspeed or 150
 local mobName = "Wolf"
 local questName = "Dangerous Wolves"
