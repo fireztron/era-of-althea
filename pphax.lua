@@ -1,4 +1,4 @@
---v5.2, check v3rm thread to see if this is updated: https://v3rmillion.net/showthread.php?tid=1114065
+--v5.3, check v3rm thread to see if this is updated: https://v3rmillion.net/showthread.php?tid=1114065
 
 repeat wait() until game:GetService("Players").LocalPlayer.Character
 
@@ -142,7 +142,7 @@ local walkspeed = 16
 local jumppower = 50
 
 local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/fireztron/uwuware-ui-library/main/ui.lua', true))()
-local window = lib:CreateWindow('PPHAX v5.2 - era of althea')
+local window = lib:CreateWindow('PPHAX v5.3 - era of althea')
 window:AddLabel({text = "fireztron @ v3rmillion"})
 window:AddToggle({text = 'auto quest', state = autoQuest, callback = function(v) 
     if not legitmode then
