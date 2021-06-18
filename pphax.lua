@@ -5,7 +5,7 @@ repeat wait() until game:GetService("Players").LocalPlayer.Character
 --// Codes
 
 spawn(function()
-local codes = {"2MVISITS!", "AhwokenTwitter!", "1MVISITS!", "15KLIKES!", "SHUTDOWNADOPTME!", "MaineEOA", "ShutdownForFixes!", "AltheaHype!", "ShutdownForFixesA!", "ShutdownForFixes2!", "4MILVISITS!", "25LIKES!", "MyApologies!"}
+local codes = {"2MVISITS!", "AhwokenTwitter!", "1MVISITS!", "15KLIKES!", "SHUTDOWNADOPTME!", "MaineEOA", "ShutdownForFixes!", "AltheaHype!", "ShutdownForFixesA!", "ShutdownForFixes2!", "4MILVISITS!", "25LIKES!", "MyApologies!", "NewUpdate??"}
 local Event = game:GetService("ReplicatedStorage").Remotes.RedeemCode
 for i,v in pairs(codes) do
    Event:InvokeServer(v)
